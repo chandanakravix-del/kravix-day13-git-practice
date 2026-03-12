@@ -1,0 +1,20 @@
+
+What is a Pull Request (PR)?
+A PR is a way to notify your team that you’ve finished a set of changes in a specific branch and want to merge them into the main codebase. It’s a "request" for others to review your work before it becomes official.
+Why is a PR important? 
+Quality Control: It allows peers to catch bugs or logic errors.
+Knowledge Sharing: The team stays informed about what’s changing in the app.
+Documentation: It creates a searchable history of why certain changes were made. 
+Why not push directly to main?
+Stability: Pushing directly risks "breaking the build" for everyone else if your code has a bug.
+Oversight: Without a PR, there’s no second pair of eyes to catch mistakes.
+Chaos: In a team, it’s hard to track who changed what and why if everyone pushes to the same place simultaneously. 
+What is code review?
+It’s the process where other developers read through your PR. They look for bugs, suggest better ways to write the code, and ensure it follows the team's style standards. Think of it like "peer editing" an essay.
+What happens after a merge? 
+Integration: Your code becomes part of the main project.
+Deployment: Often, an automated system (CI/CD) kicks in to test and deploy the updated main branch to a server.
+Cleanup: The temporary branch you worked on is usually deleted to keep the repository tidy. 
+
+
+
